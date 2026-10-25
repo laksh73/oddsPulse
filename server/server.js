@@ -82,7 +82,7 @@ app.get("/api/markets", async (req, res) => { //testing
 
     const results = [];
     const BATCH_SIZE = 25;
-    const BATCH_DELAY = 500; // 1 second
+    const BATCH_DELAY = 500; // 500 mili second
 
     const sleep = (ms) =>
         new Promise((resolve) => setTimeout(resolve, ms));
