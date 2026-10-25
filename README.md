@@ -13,6 +13,34 @@ oddsPulse is a full-stack web application that tracks sports markets, displays o
 - **Real-Time Data:** Receive odds updates through WebSockets.
 - **Historical Data Storage:** Store odds snapshots in MongoDB.
 
+
+## Screenshots
+
+### Live Markets
+View live sports markets and their current odds.
+
+![Live Markets](screenshots/live-markets.png)
+
+### All Markets
+Browse available markets across supported sports.
+
+![All Markets](screenshots/all-markets.png)
+
+### Sport Filtering
+Filter the markets by sport to find relevant matches.
+
+![Sport Filtering](screenshots/sport-filtering.png)
+
+### Search Matches
+View outcome probabilities and the calculated market edge.
+
+![Search Matches](screenshots/search-team-name.png)
+
+### Historical Odds Chart
+Visualize how outcome probabilities change over time.
+
+![Historical Odds Chart](screenshots/odds-history.png)
+
 ## Tech Stack
 
 - **Frontend:** React, Vite, Recharts
