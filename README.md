@@ -32,7 +32,7 @@ Filter the markets by sport to find relevant matches.
 ![Sport Filtering](screenshots/sport-filtering.png)
 
 ### Search Matches
-View outcome probabilities and the calculated market edge.
+Search for Mathces by team names.
 
 ![Search Matches](screenshots/search-team-name.png)
 
