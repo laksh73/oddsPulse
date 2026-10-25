@@ -1,0 +1,89 @@
+/* Market table container */
+/* Market table container */
+.market-table-container {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-top: 20px;
+  overflow-x: auto;
+  border: 1px solid #263244;
+  border-radius: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Table */
+.market-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* Table headings */
+.market-table th {
+  padding: 16px;
+  background-color: #111827;
+  color: #94a3b8;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Table cells */
+.market-table td {
+  padding: 18px 16px;
+  border-top: 1px solid #263244;
+  color: #e2e8f0;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* Hover effect */
+.market-table tbody tr:hover {
+  background-color: #172235;
+}
+
+/* Edge colors */
+.positive-edge {
+  color: #22c55e !important;
+}
+
+.negative-edge {
+  color: #ef4444 !important;
+}
+
+/* Empty-state message */
+.market-table td[colspan="5"] {
+  text-align: center;
+  padding: 32px 16px;
+  color: #94a3b8;
+  white-space: normal;
+}
+
+/* Clickable fixture */
+.market-fixture {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.market-fixture:hover {
+  color: #38bdf8 !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .market-table-container {
+    margin-top: 20px;
+  }
+
+  .market-table th {
+    padding: 12px;
+    font-size: 11px;
+  }
+
+  .market-table td {
+    padding: 14px 12px;
+    font-size: 13px;
+  }
+}
