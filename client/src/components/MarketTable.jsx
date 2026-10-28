@@ -1,5 +1,4 @@
 import './MarketTable.css'
-// import markets from '../data/markets'
 import { getMarkets } from '../services/marketService'
 import { useState, useEffect } from 'react'
 
@@ -133,13 +132,13 @@ useEffect(() => {
                       <td>
                       {market.outcomeOne !== null
                           ? `${market.outcomeOne.toFixed(2)}%`
-                          : '-'}
+                          : 'bidding'}
                       </td>
 
                       <td>
                       {market.outcomeTwo !== null
                           ? `${market.outcomeTwo.toFixed(2)}%`
-                          : '-'}
+                          : 'bidding'}
                       </td>
 
                       <td
